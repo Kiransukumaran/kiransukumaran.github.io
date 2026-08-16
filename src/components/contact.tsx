@@ -11,7 +11,7 @@ export function Contact() {
           Let’s build something that <span className="grad-text">stays up</span>.
         </h2>
         <p className="mt-5 max-w-lg leading-7 text-muted">
-          Open to conversations about backend architecture, DevOps, and AI platforms. Or start a web call with Milo in the corner — he is an AI agent and my personal assistant, and can answer questions or email you the CV.
+          Open to conversations about backend architecture, DevOps, and AI platforms.
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
           <a

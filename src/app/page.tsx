@@ -26,7 +26,7 @@ export default function Home() {
           <Contact />
         </main>
         <SiteFooter />
-        <VoiceAgent />
+        {process.env.NEXT_PUBLIC_ENABLE_MILO === "true" ? <VoiceAgent /> : null}
       </div>
     </>
   );

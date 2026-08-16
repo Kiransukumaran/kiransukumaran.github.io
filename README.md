@@ -11,11 +11,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Milo is the **Call** control in the corner.
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Voice agent
 
-Milo is an AI agent and Kiran's personal assistant. On GitHub Pages he answers from the on-site knowledge brain. Locally, optional API keys enable richer answers and emailing the CV.
+Milo is built in the repo but hidden on the live site until it is ready. To turn him on locally, set `NEXT_PUBLIC_ENABLE_MILO=true` in `.env.local`.
 
 | Variable | Purpose |
 | --- | --- |
